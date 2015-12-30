@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MERGER_H	merger.h	2;"	d
+MergeSort	merger.c	/^bool MergeSort(int a[], int n)  $/;"	f	signature:(int a[], int n)
+MergeSort	merger.h	/^bool MergeSort(int a[], int n);  $/;"	p	signature:(int a[], int n)
+array_common	merger.c	/^void array_common(int a[],int m,int b[],int n,int &count)$/;"	f	signature:(int a[],int m,int b[],int n,int &count)
+array_common	merger.h	/^void array_common(int a[],int m,int b[],int n,int &count);$/;"	p	signature:(int a[],int m,int b[],int n,int &count)
+main	main.c	/^int main()$/;"	f
+mergearray	merger.c	/^void mergearray(int a[], int first, int mid, int last, int temp[])  $/;"	f	signature:(int a[], int first, int mid, int last, int temp[])
+mergearray	merger.h	/^void mergearray(int a[], int first, int mid, int last, int temp[]);  $/;"	p	signature:(int a[], int first, int mid, int last, int temp[])
+mergesort	merger.c	/^void mergesort(int a[], int first, int last, int temp[])  $/;"	f	signature:(int a[], int first, int last, int temp[])
+mergesort	merger.h	/^void mergesort(int a[], int first, int last, int temp[]);  $/;"	p	signature:(int a[], int first, int last, int temp[])
+objects	makefile	/^objects=main.o merger.o$/;"	m
+std	main.c	/^using namespace std;$/;"	v
